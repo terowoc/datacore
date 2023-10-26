@@ -12,12 +12,11 @@ class DataBase
 
     public function __construct(
         private string $database,
-        private string $username = 'postgres',
-        private string $password = '1234',
+        private string $username,
+        private string $password,
         private string $host = '127.0.0.1',
         private int $port = 5432,
-        private string $driver = 'pgsql',
-        private string $charset = 'utf8'
+        private string $driver = 'pgsql'
     ) {
         $this->connect();
     }
