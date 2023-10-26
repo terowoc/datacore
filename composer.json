@@ -1,6 +1,6 @@
 {
     "name": "terowoc/datacore",
-    "description": "...",
+    "description": "DataCore Library for PHP",
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -14,5 +14,7 @@
             "email": "dev@azimboev.uz"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^8.2"
+    }
 }
