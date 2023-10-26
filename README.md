@@ -41,8 +41,7 @@ $db = new DataBase(
 	$password,
 	$host,
 	$port,
-	$driver,
-
+	$driver
 );
 
 ```
